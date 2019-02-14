@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:startDestination="@+id/book_driver_fragment">
+
+    <fragment
+            android:id="@+id/book_driver_fragment"
+            android:name="com.kstransfer.view.BookDriverFragment"
+            android:label="Search your ride"
+            tools:layout="@layout/fragment_book_driver">
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/booking_history_fragment"
+            android:name="com.kstransfer.view.BookingHistoryFragment"
+            android:label="Booking History"
+            tools:layout="@layout/fragment_booking_history">
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/support_fragment"
+            android:name="com.kstransfer.view.SupportFragment"
+            android:label="Support"
+            tools:layout="@layout/fragment_support">
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/terms_and_conditions_fragment"
+            android:name="com.kstransfer.view.TermsAndConditionsFragment"
+            android:label="Search your ride"
+            tools:layout="@layout/fragment_terms_and_conditions">
+
+    </fragment>
+
+</navigation>
