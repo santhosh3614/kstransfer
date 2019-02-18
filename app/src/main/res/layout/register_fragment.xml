@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="40dp"
+                android:paddingStart="40dp"
+                android:paddingBottom="40dp"
+                android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/small_logo"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edtUserName"
+                    style="@style/InputBoxStyle"
+                    android:layout_marginTop="70dp"
+                    android:imeOptions="actionNext"
+                    android:drawableStart="@drawable/user"
+                    android:hint="Full Name"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edtEmail"
+                    style="@style/InputBoxStyle"
+                    android:layout_marginTop="15dp"
+                    android:drawableStart="@drawable/email"
+                    android:hint="Email (Option)"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:imeOptions="actionDone"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/tvRegister"
+                    android:layout_marginTop="45dp"
+                    style="@style/PrimaryButtonStyle"
+                    android:text="Register"/>
+
+            <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="Already registered!"
+                        android:textSize="16sp"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tvLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_semi_bold"
+                        android:padding="5dp"
+                        android:text="Login Me."
+                        android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

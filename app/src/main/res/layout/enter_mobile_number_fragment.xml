@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/small_logo"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/opensans_semi_bold"
+                android:gravity="center"
+                android:text="PLease Enter your mobile number to proceed"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_edit_text"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="+91"
+                    android:textSize="18sp"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etMobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/opensans_regular"
+                    android:hint="Your mobile number"
+                    android:inputType="number"
+                    android:maxEms="10"
+                    android:maxLength="10"
+                    android:textSize="18sp"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btNext"
+                style="@style/PrimaryButtonStyle"
+                android:layout_marginTop="30dp"
+                android:text="Next"/>
+    </LinearLayout>
+</layout>

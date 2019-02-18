@@ -12,7 +12,7 @@
             android:fontWeight="400"/>
 
     <font
-            android:font="@font/opensans_semibold"
+            android:font="@font/opensans_semi_bold"
             android:fontStyle="normal"
             android:fontWeight="400"/>
 
