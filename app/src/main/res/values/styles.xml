@@ -32,6 +32,20 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="SecondaryButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_secondary_button</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <!--<item name="android:paddingBottom">5dp</item>-->
+        <item name="android:paddingStart">25dp</item>
+        <item name="android:paddingEnd">25dp</item>
+        <!--<item name="android:paddingTop">5dp</item>-->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
     <style name="OtpInputBoxStyle">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvBookDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableStart="@drawable/book_driver"
+            android:drawablePadding="10dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/opensans_regular"
+            android:padding="5dp"
+            android:text="Book Driver"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvBookingHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableStart="@drawable/booking_history"
+            android:drawablePadding="10dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/opensans_regular"
+            android:padding="5dp"
+            android:text="Booking History"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSupport"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableStart="@drawable/support"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/opensans_regular"
+            android:padding="5dp"
+            android:text="Support"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTermsAndConditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/black"
+            android:drawableStart="@drawable/terms_conditions"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/opensans_regular"
+            android:padding="5dp"
+            android:text="Terms and Conditions"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRegisterCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/black"
+            android:drawableStart="@drawable/register_your_car"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/opensans_regular"
+            android:padding="5dp"
+            android:text="Register Your Car"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRegisterDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"
+            android:drawableStart="@drawable/register_your_driver"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/opensans_regular"
+            android:padding="5dp"
+            android:text="Register Your Driver"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvLogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="40dp"
+            android:drawableStart="@drawable/logout"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/opensans_regular"
+            android:padding="5dp"
+            android:text="Logout"/>
+</LinearLayout>

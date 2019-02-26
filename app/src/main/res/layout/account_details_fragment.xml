@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="40dp"
+                android:paddingStart="40dp"
+                android:paddingBottom="40dp"
+                android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etUserName"
+                    style="@style/InputBoxStyle"
+                    android:layout_marginTop="40dp"
+                    android:imeOptions="actionNext"
+                    android:drawableStart="@drawable/user"
+                    android:hint="Full Name"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etEmail"
+                    style="@style/InputBoxStyle"
+                    android:layout_marginTop="15dp"
+                    android:drawableStart="@drawable/email"
+                    android:hint="Email (Optional)"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:imeOptions="actionNext"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etPhone"
+                    style="@style/InputBoxStyle"
+                    android:layout_marginTop="15dp"
+                    android:drawableStart="@drawable/mobile"
+                    android:hint="Mobile Number"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:imeOptions="actionNext"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etPassword"
+                    style="@style/InputBoxStyle"
+                    android:layout_marginTop="15dp"
+                    android:drawableStart="@drawable/password"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:imeOptions="actionDone"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>
